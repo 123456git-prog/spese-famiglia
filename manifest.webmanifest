@@ -1,0 +1,22 @@
+{
+  "name": "Spese di Famiglia",
+  "short_name": "Spese",
+  "description": "Registra spese ed entrate di famiglia e controlla il bilancio mensile e annuale.",
+  "lang": "it",
+  "start_url": "./#aggiungi",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f1ee",
+  "theme_color": "#1c5cab",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Nuova spesa", "url": "./#aggiungi" },
+    { "name": "Riepilogo", "url": "./#riepilogo" }
+  ]
+}
